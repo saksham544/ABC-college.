@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://aadimcollege.edu.np</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://www.abccollege.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://www.abccollege.com/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.abccollege.com/courses.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.abccollege.com/admission.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.abccollege.com/contact.html</loc>
   </url>
 
 </urlset>
