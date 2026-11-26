@@ -1,0 +1,3 @@
+user-agent:*
+Allow:/
+sitmap:https://aadimcollege.edu.np/sitma.xml
