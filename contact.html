@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | ABC College</title>
+  <meta name="description" content="Contact ABC College in Kathmandu, Nepal, for information about courses and admission.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.abccollege.com/contact.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>ABC College</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="admission.html">Admission</a>
+    <a class="active" href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h1 class="section-title">Contact Us</h1>
+
+    <div class="content">
+      <p><strong>Address:</strong> Kathmandu, Nepal</p>
+      <p><strong>Email:</strong> info@abccollege.com</p>
+      <p><strong>Phone:</strong> +977-9762304280</p>
+    </div>
+
+    <br>
+
+    <h2 class="section-title">Send Us a Message</h2>
+
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number">
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="formMessage" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+    <a href="https://aadimcollege.edu.np">Aadim College</a> |   
+    <a href="https://aadimcollege.edu.np">Aadim College</a>
+  <p>© 2026 ABC College. All Rights Reserved.</p>
+</footer>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  document.getElementById("formMessage").textContent =
+    "Thank you! This demo form does not send or save messages yet.";
+  this.reset();
+});
+</script>
+
+</body>
+</html>
