@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>ABC College | Best College in Kathmandu, Nepal</title>
+    <meta name="description" content="Abc College offers quality education in BCA, BBS and Science programs in Kathmandu, Nepal. Explore courses and admission opportunities.">
+    <meta name="keywords" content="best college in Nepal, college in Kathmandu, BCA college Nepal, BBS college Nepal">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://www.abccollege.edu.np/">
+    <meta property="og:title" content="ABC College | Best College in Kathmandu, Nepal">
+    <meta property="og:description" content="Abc College offers quality education in BCA, BBS and Science programs in Kathmandu, Nepal. Explore courses and admission opportunities.">
+    <meta property="og:url" content="https://www.abccollege.edu.np/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.abccollege.edu.np/images/og-image.jpg">
+    <meta property="og:site_name" content="ABC College">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ABC College",
+            "url": "https://www.abccollege.edu.np/",
+            "logo": "https://www.abccollege.edu.np/images/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+977-9762304280",
+                "contactType": "customer service",
+                "areaServed": "NP"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "ABC College, Kathmandu, Nepal",
+                "addressLocality": "Kathmandu",
+                "addressRegion": "Bagmati",
+                "postalCode": "44600",
+                "addressCountry": "NP"
+            }
+        }
+    </script>
+    <style>
+       * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #073b70;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px;
+      font-weight: bold;
+    }
+
+    nav a:hover { color: #ffd166; }
+
+    .hero {
+      min-height: 420px;
+      background: linear-gradient(rgba(0,35,75,.75),rgba(0,35,75,.75)),
+      url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1")
+      center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero h1 { font-size: 42px; margin-bottom: 15px; }
+    .hero p { margin-bottom: 25px; }
+
+    .btn {
+      display: inline-block;
+      background: #f5a623;
+      color: #111;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    section { padding: 60px 8%; }
+
+    .section-title {
+      text-align: center;
+      color: #073b70;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+      gap: 20px;
+    }
+
+    .course-card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,.08);
+    }
+
+    .course-card h3 { color: #073b70; }
+
+    .features { background: #eaf1f8; }
+    .feature-list { max-width: 800px; margin: auto; }
+    .feature-list li { margin: 12px 0; }
+
+    .admission {
+      text-align: center;
+      background: #073b70;
+      color: white;
+    }
+
+    .contact-container {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+    button {
+      background: #073b70;
+      color: white;
+      padding: 13px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #071f38;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    footer a { color: #ffd166; }
+
+    @media(max-width:650px) {
+      header { flex-direction: column; gap: 15px; }
+      nav { text-align: center; }
+      .hero h1 { font-size: 30px; }
+      section { padding: 45px 6%; }
+    }
+  </style>
+<body>
+    <header>
+        <h2>ABC College</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#admission">Admission</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <h1>Welcome to ABC College</h1>
+            <p>ABC College is a leading institution in Kathmandu, Nepal, offering a wide range of courses and programs to students from all over the country.</p>
+            <a href="#admission" class="btn">Apply Now</a>
+        </section>
+        section
+        <section id="about">
+            <h2 class="section-title">About Us</h2>
+            <div class="about">
+                <p>ABC College has been providing quality education for over 20 years. Our mission is to empower students with knowledge and skills that prepare them for successful careers.</p>
+            </div>
+        </section>
+       
+    <h2 class="section-title">Our Academic Programs</h2>
+    <div class="courses">
+      <article class="course-card">
+        <h3>BCA</h3>
+        <p>Bachelor of Computer Applications.</p>
+        <p>Learn programming, databases and software development.</p>
+      </article>
+
+      <article class="course-card">
+        <h3>BBS</h3>
+        <p>Bachelor of Business Studies.</p>
+        <p>Develop business and management skills.</p>
+      </article>
+
+      <article class="course-card">
+        <h3>Science</h3>
+        <p>Science education program.</p>
+        <p>Build a foundation in science and technology.</p>
+      </article>
+    </div>
+  </section>
+    
+    <h2 class="section-title">Why Choose Our College?</h2>
+    <ul class="feature-list">
+      <li>Experienced and qualified teachers</li>
+      <li>Student-friendly learning environment</li>
+      <li>Practical and project-based learning</li>
+      <li>Modern computer laboratory</li>
+      <li>Career guidance and support</li>
+    </ul>
+  </section>
+   <section class="admission" id="admission">
+    <h2>Admission Open</h2>
+    <p>Take the first step toward your successful future.</p>
+    <br>
+    <a href="#contact" class="btn">Contact for Admission</a>
+  </section>
+<section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-container">
+      
+      <form id="contactForm">
+        <input type="text" name="name"
+          placeholder="Your Full Name" required>
+
+        <input type="email" name="email"
+          placeholder="Your Email Address" required>
+
+        <input type="tel" name="phone"
+          placeholder="Your Phone Number">
+
+        <textarea name="message" rows="5"
+          placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="formMessage" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <h3>ABC College</h3>
+  <p>Kathmandu, Nepal</p>
+  <p>Email: info@abccollege.com</p>
+  <p>Phone: +977-9762304280</p>
+  <p>
+    <a href="https://aadimcollege.edu.np">Aadim College</a> |
+    <a href="https://www.collegesnepal.com/aadim-national-college/">Colleges Nepal</a>
+  </p>
+  <p>© 2026 ABC College. All Rights Reserved.</p>
+</footer>
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    document.getElementById("formMessage").textContent =
+      "Thank you! This demo form does not send or save messages yet. Please connect a backend.";
+
+    this.reset();
+  });
+</script>
+   
+</body>
+</html>
