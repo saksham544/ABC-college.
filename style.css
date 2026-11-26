@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.7;
+}
+
+header {
+  background: #073b70;
+  color: white;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 8px;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffd166;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,35,75,.75),rgba(0,35,75,.75)),
+  url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1")
+  center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #f5a623;
+  color: #111;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+section {
+  padding: 55px 8%;
+}
+
+.section-title {
+  text-align: center;
+  color: #073b70;
+  margin-bottom: 30px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,.08);
+}
+
+.card h3 {
+  color: #073b70;
+  margin-bottom: 10px;
+}
+
+.features {
+  background: #eaf1f8;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+}
+
+button {
+  padding: 13px;
+  background: #073b70;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #071f38;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+footer a {
+  color: #ffd166;
+}
+
+@media(max-width:650px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+}
